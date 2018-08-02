@@ -92,6 +92,7 @@
     "@babel/types": "7.0.0-beta.52",
     "@types/core-js": "2.5.0",
     "@types/pouchdb-adapter-memory": "6.1.2",
+    "@types/pouchdb-core": "^6.4.1",
     "assert": "1.4.1",
     "async-test-util": "1.6.0",
     "babel-cli": "6.26.0",

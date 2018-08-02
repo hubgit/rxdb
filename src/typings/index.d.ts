@@ -7,7 +7,7 @@ export * from './rx-schema';
 import {
     PouchReplicationOptions,
     PouchSettings,
-    PouchDB
+    PouchDatabase
 } from './pouch';
 export * from './pouch';
 
@@ -100,7 +100,7 @@ declare const _default: {
     isRxQuery: isInstanceOfType,
     isRxSchema: isInstanceOfType,
     RxSchema: RxSchema,
-    PouchDB: PouchDB,
+    PouchDB: PouchDB.Static,
     QueryChangeDetector: QueryChangeDetector,
     RxDatabase: RxDatabase
 };

@@ -1,8 +1,8 @@
 import { Observable } from 'rxjs';
 
 import {
-    PouchDB
-} from './pouch';
+  PouchDatabase,
+} from './pouch'
 
 import {
     RxSchema,
@@ -77,7 +77,7 @@ export declare class RxCollection<RxDocumentType, OrmMethods = {}> {
     readonly name: string;
     readonly schema: RxSchema<RxDocumentType>;
     options?: any;
-    readonly pouch: PouchDB;
+    readonly pouch: PouchDatabase;
 
     readonly $: Observable<RxChangeEventInsert<RxDocumentType> | RxChangeEventUpdate<RxDocumentType> | RxChangeEventRemove<RxDocumentType>>;
     readonly insert$: Observable<RxChangeEventInsert<RxDocumentType>>;
